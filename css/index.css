@@ -1,0 +1,63 @@
+.image-100{
+    height: calc(100vh - 58px);
+}
+
+#offset{
+    height: 56px;
+    position: absolute;
+    top: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #ECECEC;
+    height:118px;
+}
+
+#search{
+  width: 1100px; 
+}
+
+.nav-linked{
+  display: inline-block;
+  color:rgb(219, 25, 25);
+  margin-left: 5px;
+
+}
+@media screen and (max-width: 769px){
+    #search{
+      width:80%;
+    }
+  }
+
+  @media screen and (max-width: 376px){
+    #search{
+      width:70%;
+    }
+  }
+
+
+.carousel-inner{
+  background-color: #ECECEC;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-size: 50%,50%;
+  border-radius:50%;
+  outline: black;
+  background-color: black;
+  
+}
+
+.container{
+  margin-top: 30px;
+}
+
+.card{
+  margin-bottom: 30px;
+}
+

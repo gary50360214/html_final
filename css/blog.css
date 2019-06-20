@@ -1,0 +1,41 @@
+*{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+.card-body .container .row img{
+    height:147px;
+}
+
+#card-btn{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    margin:10px 40px 10px 40px;
+}
+div.clear{
+    clear: both;/*解決浮動時無法撐開容器*/
+	height:20px;
+}
+
+#card-tag{
+    margin-bottom:10px;
+}
+
+#card-img{
+    width: 100%;
+    margin-bottom:10px;
+ 
+}
+
+nav{
+    background-color:#E9ECEF;
+    padding-left:30px;
+}
+
+nav button{
+    float:right;
+}
+
+#show_image img{
+    width:200px;
+}

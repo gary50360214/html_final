@@ -1,0 +1,73 @@
+
+.image-100{
+    height: calc(40vh - 58px);
+}
+
+#offset{
+    height: 56px;
+    position: absolute;
+    top: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #ECECEC;
+    height:118px;
+}
+
+#search{
+  width: 1100px; 
+}
+
+.nav-linked{
+  display: inline-block;
+  color:rgb(219, 25, 25);
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 769px){
+    #search{
+      width:80%;
+    }
+  }
+
+  @media screen and (max-width: 376px){
+    #search{
+      width:70%;
+    }
+  }
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  color:black;
+  border-width: 3px;
+}
+
+.container{
+  margin-top: 30px;
+}
+
+.card{
+  background-color: #fcfcfc;
+}
+
+.card img{
+  padding: 10px;
+}
+
+#teacher_info{
+  margin-bottom: 30px;
+}
+
+#class_info{
+  margin-bottom: 30px;
+}
+
+
+.info{
+  font-size: 16px;
+}
+
